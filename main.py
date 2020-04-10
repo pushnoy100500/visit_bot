@@ -36,5 +36,5 @@ def reset_entries(message):
     bot.send_message(message.chat.id, 'Your listings have been cleared.')
 
 
-if __name__ == "__main__":
-    bot.polling()
+# if __name__ == "__main__":
+bot.polling()
