@@ -35,6 +35,6 @@ def reset_entries(message):
     storage.reset_address_listings(message.from_user.id)
     bot.send_message(message.chat.id, 'Your listings have been cleared.')
 
-
+# just to commit this again
 # if __name__ == "__main__":
 bot.polling()
